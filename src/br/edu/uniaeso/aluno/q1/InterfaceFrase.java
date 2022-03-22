@@ -40,7 +40,7 @@ public class InterfaceFrase {
         this.user_word_replace = user_word_replace;
     }
 
-    public void getFraseAndWords() {
+    public String getFraseAndWords() {
         System.out.println("Informe uma frase:");
         setUser_frase(in.nextLine());
         System.out.println("Informe uma palavra que deseja alterar:");
@@ -50,6 +50,6 @@ public class InterfaceFrase {
 
         Frase frase = new Frase(getUser_frase(), getUser_word_frase(), getUser_word_replace());
 
-        System.out.println(frase.replaceFrase());
+        return frase.replaceFrase();
     }
 }

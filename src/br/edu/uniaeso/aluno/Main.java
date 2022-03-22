@@ -5,6 +5,6 @@ import br.edu.uniaeso.aluno.q1.InterfaceFrase;
 public class Main {
     public static void main(String[] args) {
         InterfaceFrase interfaceFrase = new InterfaceFrase();
-        interfaceFrase.getFraseAndWords();
+        System.out.println(interfaceFrase.getFraseAndWords());
     }
 }

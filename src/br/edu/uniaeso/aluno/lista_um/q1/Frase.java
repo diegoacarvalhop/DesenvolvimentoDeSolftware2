@@ -1,4 +1,4 @@
-package br.edu.uniaeso.aluno.q1;
+package br.edu.uniaeso.aluno.lista_um.q1;
 
 public class Frase {
     private String frase, wordFrase, wordReplace;

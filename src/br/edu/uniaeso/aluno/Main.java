@@ -1,10 +1,11 @@
 package br.edu.uniaeso.aluno;
 
-import br.edu.uniaeso.aluno.lista_um.q1.InterfaceFrase;
+import br.edu.uniaeso.aluno.lista_um.q3.Cavalo;
+import br.edu.uniaeso.aluno.lista_um.q3.CavaloUI;
 
 public class Main {
     public static void main(String[] args) {
-        InterfaceFrase interfaceFrase = new InterfaceFrase();
-        System.out.println(interfaceFrase.getFraseAndWords());
+        CavaloUI cUI = new CavaloUI();
+        System.out.println(cUI.getUserNumberOfHorses());
     }
 }

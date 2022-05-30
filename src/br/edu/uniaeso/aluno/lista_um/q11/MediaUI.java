@@ -1,4 +1,4 @@
-package br.edu.uniaeso.aluno.lista_um.Q11;
+package br.edu.uniaeso.aluno.lista_um.q11;
 
 import java.util.Scanner;
 

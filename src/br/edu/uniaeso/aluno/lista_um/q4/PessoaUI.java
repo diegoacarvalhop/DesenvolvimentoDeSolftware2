@@ -32,8 +32,9 @@ public class PessoaUI {
         int mes = scan.nextInt();
         System.out.print("Ano: ");
         int ano = scan.nextInt();
+        setData_nascimento(LocalDate.of(ano, mes, dia));
 
-        Pessoa p = new Pessoa(LocalDate.of(ano, mes, dia));
+        Pessoa p = new Pessoa(getData_nascimento());
         long dias = p.calculaDiasDeVida(p.getData_nascimento());
 
         return dias;

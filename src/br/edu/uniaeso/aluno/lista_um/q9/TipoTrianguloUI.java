@@ -62,7 +62,7 @@ public class TipoTrianguloUI {
     }
 
     public String calculateTriangulo() {
-        IdentificarTriangulo i = new IdentificarTriangulo(getUser_lado_a(), getUser_lado_b(), getUser_lado_c());
-        return i.calculateTipoTriangulo();
+        TipoTriangulo tt = new TipoTriangulo(getUser_lado_a(), getUser_lado_b(), getUser_lado_c());
+        return tt.calculateTipoTriangulo();
     }
 }

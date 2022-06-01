@@ -63,7 +63,7 @@ public class PessoaUI {
     }
 
     public long calculaIdade() {
-        Pessoa p = new Pessoa(getNome(), getData_nascimento(), getAltura());
+        Pessoa p = new Pessoa(getNome(), getData_nascimento(), getAltura(), 0);
         return p.calcularIdade(p.getData_nascimento());
     }
 }

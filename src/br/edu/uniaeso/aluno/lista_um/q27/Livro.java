@@ -1,0 +1,42 @@
+package br.edu.uniaeso.aluno.lista_um.q27;
+
+public class Livro {
+    private String titulo, autor;
+    private boolean emprestado;
+
+    public Livro() {
+        setTitulo("");
+        setAutor("");
+        setEmprestado(false);
+    }
+
+    public Livro(String titulo, String autor) {
+        setTitulo(titulo);
+        setAutor(autor);
+        setEmprestado(false);
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public String getAutor() {
+        return autor;
+    }
+
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
+
+    public boolean isEmprestado() {
+        return emprestado;
+    }
+
+    public void setEmprestado(boolean emprestado) {
+        this.emprestado = emprestado;
+    }
+}
